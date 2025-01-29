@@ -1,0 +1,18 @@
+ctrl; 1
+trs; 1; 10
+wait; 30
+load_room; map/forest/b_room1.png
+hitbox; -30; 400; 680; 480
+hitbox; -30; 0; 68; 280
+hitbox; 578; 0; 680; 280
+hitbox; 0; 0; 640; 50
+ev; -61; 0; -60; 480; files/load_room7from8.txt
+ev; 700; 0; 701; 480; files/instkill.txt
+ev; 150; 0; 241; 480; files/load_boss.txt; 3
+obj; jail; 0; -130; map/forest/jail.png
+obj; leshiy; 200; 145; entity/leshiy/idle.png; 3
+obj; leshiy; 200; 145; entity/leshiy/defeat.png; 4
+spike_pos; -30; 410
+trs; 3; 10
+ctrl; -1
+end

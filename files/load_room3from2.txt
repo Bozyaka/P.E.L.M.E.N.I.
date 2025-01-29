@@ -1,0 +1,12 @@
+ctrl; 1
+trs; 1; 10
+wait; 30
+load_room; map/forest/f_room3.png
+hitbox; -30; 425; 670; 464
+spike_pos; -30; 375
+ev; -61; 0; -60; 480; files/load_room2from3.txt
+ev; 200; 0; 640; 480; files/cutscene2.txt; 2
+ev; 700; 0; 701; 480; files/load_room4from3.txt
+trs; 3; 10
+ctrl; -1
+end

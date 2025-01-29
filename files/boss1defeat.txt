@@ -1,0 +1,16 @@
+ctrl; 1
+wait; 30
+music; stop; 1000
+nxt_ctsc
+obj_move; jail; 0; -10
+wait; 11
+obj_stop; jail
+del_htb
+hitbox; -30; 400; 680; 480
+hitbox; -30; 0; 68; 280
+hitbox; 578; 0; 680; 280
+hitbox; 0; 0; 640; 50
+wait; 30
+music; music/forest.mp3
+ctrl; -1
+end

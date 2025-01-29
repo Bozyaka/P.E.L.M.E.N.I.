@@ -1,0 +1,2 @@
+save; files/load_room7save.txt
+end

@@ -1,0 +1,37 @@
+﻿ctrl; 1
+cutscene; 1
+spike_move; 0; 0
+music; stop; 1000
+wait; 90
+music; music/tree.mp3
+sound; sounds/txtdub.mp3; 1
+dialog; * Эй, ты! Подойди сюда!
+spike_move; 1; 0
+sound; sounds/walk.wav; 0.7
+wait; 15
+sound; sounds/walk.wav; 0.7
+wait; 15
+sound; sounds/walk.wav; 0.7
+spike_move; 0; 0
+wait; 90
+sound; sounds/txtdub.mp3; 1
+dialog; * Слыхал, ты путь в замок Лорда Сириуса держишь!Нелегко тебе придётся, ох нелегко!
+wait; 30
+sound; sounds/jump.mp3; 0.5
+spike_move; 0; -7
+wait; 120
+sound; sounds/txtdub.mp3; 1
+dialog; * Прими мой дар, путник.
+sound; sounds/buy.wav; 0.5
+dialog; Вы получили сапоги-скороходы!
+sound; sounds/txtdub.mp3; 1
+dialog; * С помощью этих волшебных чеботов, нажатием на кнопку [Shift], ты сможешь делать рывок вперёд!
+sound; sounds/txtdub.mp3; 1
+music; stop; 500
+dialog; * На этом у меня всё, скиталец, надеюсь тебе этопоможет в бою!
+ctrl; -1
+ulk_dash
+music; music/forest.mp3
+nxt_ctsc
+cutscene; 0
+end

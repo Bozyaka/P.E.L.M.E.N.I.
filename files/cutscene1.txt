@@ -1,0 +1,95 @@
+﻿ctrl; 1
+cutscene; 1
+music; music/shlepa.mp3
+spike_move; 1; 0
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+spike_move; 0; 0
+wait; 60
+sound; sounds/txtsh.mp3; 1
+dialog; * Зачем забрёл ты ко мне, странник?
+wait; 30
+sound; sounds/jump.mp3; 0.5
+spike_move; 0; -7
+wait; 120
+sound; sounds/txtsh.mp3; 1
+dialog; * А? Говоришь, раньше на твоей голове был краси-вый цветок, но ты его потерял?
+wait; 30
+sound; sounds/jump.mp3; 0.5
+spike_move; 0; -7
+wait; 120
+sound; sounds/txtsh.mp3; 1
+dialog; * Ничего. Я помогу тебе. Я сварю такое зелье,   что отрастит тебе шевелюру ещё пуще прежней!
+sound; sounds/txtsh.mp3; 1
+dialog; * Но для него нужен один важный ингредиент.
+music; pause
+wait; 120
+sound; sounds/pelmeni.mp3; 1
+music; unpause
+dialog; * Пельмени!
+sound; sounds/txtsh.mp3; 1
+dialog; * Это крайне редкое сокровище, которое можно    отыскать в замке Тёмного Лорда Сириуса, что рас-положен за тридевять земель отсюда!
+sound; sounds/txtsh.mp3; 1
+dialog; * Иди за мной.
+trs; 1; 5
+wait; 60
+change_bg; map/cutscene/portal.png
+hitbox; 0; 422; 670; 480
+spike_pos; 240; 370
+trs; 3; 5
+spike_move; 1; 0
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+spike_move; 0; 0
+wait; 30
+dir; -1
+wait; 30
+sound; sounds/txtsh.mp3; 1
+dialog; * Замок Лорда Сириуса расположен на вершине горыв Мёртвом Царстве, путь к которому тебе предсто-ит через Огненные Земли и Долину Ледяных Пиков!
+sound; sounds/txtsh.mp3; 1
+dialog; * Держи дробовик и карту, они помогут тебе в до-роге! И запомни: как только окажешься на пороге замка, хватай пельмени и беги! В одиночку тебе сним не справиться.
+music; stop; 2000
+wait; 90
+spike_move; 2; 0
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+wait; 20
+sound; sounds/walk.wav; 0.7
+spike_move; 0; 0
+cng_trs; 255; 255; 255
+wait; 60
+trs; 1; 1
+sound; sounds/portal.mp3; 1
+wait; 360
+load_room; map/forest/f_room1.png
+hitbox; 0; 425; 670; 480
+hitbox; 40; 0; 50; 480
+ev; 680; 0; 681; 480; files/load_room2from1.txt
+spike_pos; 270; 374
+trs; 3; 10
+dir; 1
+ctrl; -1
+cng_trs; 5; 2; 0
+nxt_ctsc
+music; music/forest.mp3
+cutscene; 0
+end

@@ -1,0 +1,11 @@
+ctrl; 1
+trs; 1; 10
+wait; 30
+load_room; map/forest/f_room1.png
+hitbox; 0; 425; 670; 480
+hitbox; 40; 0; 50; 480
+ev; 700; 0; 701; 480; files/load_room2from1.txt
+spike_pos; 640; 375
+trs; 3; 10
+ctrl; -1
+end

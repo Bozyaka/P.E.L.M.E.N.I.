@@ -1,0 +1,17 @@
+ctrl; 1
+music; stop; 1000
+sound; sounds/gate.mp3; 1
+wait; 30
+obj_move; jail; 0; 10
+wait; 11
+obj_stop; jail
+wait; 30
+sound; sounds/boss1_speak.mp3; 1
+wait; 120
+obj_del; leshiy
+music; music/boss1.ogg
+enemy; entity/leshiy/walk.png; 2; 1; 355; 170; 100; 200; 155; 50; 0; 1; entity/leshiy/idle.png; 0; 10; 5; 350; particles/gear.png; 1500; 15; entity/evil_log/atk.png; 15; sounds/exp.mp3; sounds/exp.mp3
+hitbox; -30; 0; 58; 480
+hitbox; 588; 0; 680; 480
+ctrl; -1
+end

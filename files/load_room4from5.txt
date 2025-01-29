@@ -1,0 +1,14 @@
+ctrl; 1
+trs; 1; 10
+wait; 30
+load_room; map/forest/f_room4.png
+hitbox; -30; 425; 420; 480
+hitbox; 795; 425; 1310; 480
+spike_pos; 1270; 375
+ev; -61; 0; -60; 480; files/load_room3from4.txt
+ev; 1330; 0; 1331; 480; files/load_room5from4.txt
+ev; 200; 510; 1000; 540; files/fall4room.txt
+enemy; entity/slime/idle.png; 2; 1; 900; 380; 40; 50; 30; 60; 0; 1; entity/slime/jump.png; 3; 8; 2; 300; particles/slime.png; 100; 9; particles/bullet.png; 1; sounds/slimedth.wav; sounds/slime.mp3
+trs; 3; 10
+ctrl; -1
+end

@@ -1,0 +1,20 @@
+ctrl; 1
+trs; 1; 10
+wait; 30
+load_room; map/forest/f_room7.png
+hitbox; -30; 400; 1310; 480
+hitbox; 130; 0; 290; 290
+hitbox; 270; 260; 564; 282
+hitbox; 420; 160; 564; 180
+hitbox; 420; 0; 564; 60
+hitbox; 710; 160; 836; 410
+hitbox; 1190; 0; 1400; 274
+ev; -61; 0; -60; 480; files/load_room6from7.txt
+ev; 1330; 0; 1331; 480; files/load_room8from7.txt
+enemy; entity/evil_log/idle.png; 3; 1; 750; 150; 50; 50; 55; 45; 0; 0; entity/slime/jump.png; 0; 4; 3; 350; particles/bullet.png; 90; 15; entity/evil_log/atk.png; 3; sounds/logdth.wav; sounds/logdth.wav
+enemy; entity/slime/idle.png; 2; 1; 316; 232; 40; 50; 30; 60; 0; 1; entity/slime/jump.png; 3; 8; 2; 300; particles/slime.png; 100; 9; particles/bullet.png; 1; sounds/slimedth.wav; sounds/slime.mp3
+enemy; entity/slime/idle.png; 2; 1; 562; 368; 40; 50; 30; 60; 0; 1; entity/slime/jump.png; 3; 8; 2; 600; particles/slime.png; 100; 9; particles/bullet.png; 1; sounds/slimedth.wav; sounds/slime.mp3
+spike_pos; 1270; 410
+trs; 3; 10
+ctrl; -1
+end

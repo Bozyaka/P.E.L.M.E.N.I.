@@ -1,0 +1,4 @@
+ctrl; 1
+hp; -1000
+ctrl; -1
+end

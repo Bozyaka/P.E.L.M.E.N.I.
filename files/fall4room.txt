@@ -1,0 +1,9 @@
+﻿ctrl; 1
+trs; 1; 10
+wait; 30
+hp; -10
+spike_pos; 300; 375
+trs; 3; 10
+wait; 30
+ctrl; -1
+end_wo_kill
