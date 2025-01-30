@@ -4,10 +4,10 @@ wait; 30
 load_room; map/forest/f_room7.png
 hitbox; -30; 400; 1310; 480
 hitbox; 130; 0; 290; 290
-hitbox; 270; 260; 564; 282
-hitbox; 420; 160; 564; 180
+hitbox; 270; 260; 564; 282; wood
+hitbox; 420; 160; 564; 180; wood
 hitbox; 420; 0; 564; 60
-hitbox; 710; 160; 836; 410
+hitbox; 710; 160; 836; 410; wood
 hitbox; 1190; 0; 1400; 274
 ev; -61; 0; -60; 480; files/load_room6from7.txt
 ev; 1330; 0; 1331; 480; files/load_room8from7.txt

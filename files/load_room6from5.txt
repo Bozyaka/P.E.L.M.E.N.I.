@@ -2,9 +2,9 @@ ctrl; 1
 trs; 1; 10
 wait; 30
 load_room; map/forest/f_room6.png
-hitbox; -30; 96; 108; 640
+hitbox; -30; 96; 108; 640; wood
 hitbox; 490; 400; 700; 480
-phitbox; 108; 96; 250; 106
+phitbox; 108; 96; 250; 106; wood
 ev; -61; -400; -60; 480; files/load_room5from6.txt
 ev; 700; 0; 701; 480; files/load_room7from6.txt
 ev; 0; 510; 640; 520; files/fall6room.txt

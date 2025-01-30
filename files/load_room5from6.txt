@@ -5,11 +5,11 @@ load_room; map/forest/f_room5.png
 hitbox; -30; 640; 300; 720
 hitbox; 300; 585; 400; 720
 hitbox; 720; 490; 1280; 720
-hitbox; 920; 400; 1000; 500
-hitbox; 1129; 96; 1700; 720
-phitbox; 815; 268; 1170; 300
-phitbox; 833; 191; 900; 211
-phitbox; 905; 96; 1130; 106
+hitbox; 920; 400; 1000; 500; wood
+hitbox; 1129; 96; 1700; 720; wood
+phitbox; 815; 268; 1170; 300; wood
+phitbox; 833; 191; 900; 211; wood
+phitbox; 905; 96; 1130; 106; wood
 obj; shlepa; 80; 510; entity/shlepa/idle.png
 enemy; entity/evil_log/idle.png; 3; 1; 330; 540; 50; 50; 55; 45; 0; 0; entity/slime/jump.png; 0; 4; 3; 500; particles/bullet.png; 90; 15; entity/evil_log/atk.png; 3; sounds/logdth.wav; sounds/logdth.wav
 enemy; entity/evil_log/idle.png; 3; 1; 940; 350; 50; 50; 55; 45; 0; 0; entity/slime/jump.png; 0; 4; 3; 500; particles/bullet.png; 90; 15; entity/evil_log/atk.png; 3; sounds/logdth.wav; sounds/logdth.wav
