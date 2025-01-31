@@ -1195,7 +1195,7 @@ pb_clicked = False
 cutscene = True
 dialog = False
 pygame.mouse.set_visible(False)
-next_necessary_cutscene = 3
+next_necessary_cutscene = 1
 ###
 menu = pygame.sprite.Sprite(starts)
 menu.image = pygame.image.load('ui/menu.png').convert_alpha()
@@ -1265,7 +1265,7 @@ while running:
                 if e.type == pygame.KEYUP and e.key == pygame.K_a:
                     left = False
                 if (e.type == pygame.MOUSEBUTTONDOWN and e.button == 1) or (
-                        e.type == pygame.KEYUP and e.key == pygame.K_h):
+                        e.type == pygame.KEYDOWN and e.key == pygame.K_h):
                     if not dash and not attack:
                         attack = True
                         R_GUN.counter = 4
@@ -1467,10 +1467,10 @@ while running:
             transition = 3
             trs_speed = 5
             temp = 255
-            cutscene = False
-            dash_unlocked = True
-            EventBlock(0, 0, 640, 480, 'files/load_room7save.txt')
-            # EventBlock(0, 0, 640, 480, 'files/cutscene1.txt')
+            #cutscene = False
+            #dash_unlocked = True
+            # EventBlock(0, 0, 640, 480, 'files/load_room7save.txt')
+            EventBlock(0, 0, 640, 480, 'files/cutscene1.txt')
 
     elif transition == 3:
         transition_scr.image.fill((*trs_color, temp))
